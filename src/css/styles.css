@@ -79,6 +79,18 @@ img {
   gap: 20px;
 }
 
+.photo {
+  transition-duration: 250ms;
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.photo:hover {
+  transform: scale(1.02);
+}
+.link:hover {
+  cursor: zoom-in;
+}
 .info {
   display: flex;
   justify-content: center;

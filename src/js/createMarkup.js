@@ -11,7 +11,7 @@ function createMarkup(data) {
         downloads,
       }) => {
         return `<div class="photo-card">
-  <a href="${largeImageURL}"><img src="${webformatURL}" alt="${tags}" loading="lazy" width="430" height ="280" /></a>
+  <a class="link" href="${largeImageURL}"><img class ="photo" src="${webformatURL}" alt="${tags}" loading="lazy" width="430" height ="280" /></a>
   <div class="info">
   <p class="info-item">
   <b>Likes:</b>
