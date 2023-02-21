@@ -59,6 +59,7 @@ async function OnSubmitButton(evt) {
 
     if (totalHits === 0) {
       clearMarkup();
+      hideLoadMoreBtn();
       Notify.failure(
         'Sorry, there are no images matching your search query. Please try again.'
       );
